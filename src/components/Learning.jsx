@@ -18,14 +18,14 @@ export default function Learning() {
       organization: "EduSkills Foundation",
       description: "Comprehensive curriculum covering Core Java, Spring Boot architecture, RESTful API design, Postman verification, and MySQL relational data modeling.",
       date: "Oct – Dec 2025",
-      certificateUrl: null,
+      certificateUrl: "https://drive.google.com/drive/folders/1uJK6EApEKUK9HT7TFPpKXuGs0GGToGh2?usp=drive_link",
     },
     {
       title: "Societal Internship Program",
       organization: "Medi-Caps University",
       description: "60-hour community teaching and mentoring program focused on foundational education and community stakeholder communication.",
-      date: "2024",
-      certificateUrl: null,
+      date: "Aug 2026",
+      certificateUrl: "https://drive.google.com/drive/folders/1uJK6EApEKUK9HT7TFPpKXuGs0GGToGh2?usp=drive_link",
     },
   ];
 
