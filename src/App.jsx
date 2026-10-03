@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -17,7 +18,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F7F8F6] dark:bg-[#101412] text-[#151817] dark:text-[#F1F4F2] flex flex-col font-sans transition-colors duration-200">
-      
+
       {/* Editorial Sticky Navigation with Monogram */}
       <Navbar onOpenResume={() => setIsResumeOpen(true)} />
 
@@ -62,6 +63,8 @@ export default function App() {
         onClose={() => setIsResumeOpen(false)}
       />
 
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
